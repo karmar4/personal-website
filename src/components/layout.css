@@ -66,7 +66,7 @@ h1 {
   margin: 0.67em 0;
 }
 mark {
-  background-color: #E86C60;
+  background-color: #e86c60;
 
   color: #000;
 }
@@ -221,6 +221,7 @@ img {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  border: solid 1px rgb(235, 233, 233);
 }
 h1 {
   margin-left: 0;
@@ -248,7 +249,7 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: #E86C60;
+  color: #e86c60;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -616,10 +617,9 @@ pre tt:after {
 }
 
 a {
-  color: #E86C60;
+  color: #e86c60;
   text-decoration: none;
 }
-
 
 @media only screen and (max-width: 480px) {
   html {
@@ -640,6 +640,7 @@ a {
   height: 100px;
   padding: 0px 50px;
   color: rgba(0, 0, 0, 0.3);
+  width: 100%;
 }
 .footer-links {
   display: flex;

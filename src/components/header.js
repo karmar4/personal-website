@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`
           }}
         />
-        Welcome
+        Hi, thanks for visiting
       </h1>
     </div>
   </header>

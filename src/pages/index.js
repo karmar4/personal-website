@@ -9,6 +9,8 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 import toolbraryImage from "../images/toolbrary.png";
 import drunkImage from "../images/blinddrunk.png";
+import wordgameImage from "../images/wordgame.png";
+import dorkImage from "../images/dork.png";
 
 const IndexPage = () => (
   <Layout>
@@ -42,7 +44,7 @@ const IndexPage = () => (
     >
       <h2>Projects </h2>
       <div
-        class="flex-container"
+        className="flex-container"
         style={{
           display: "flex",
           flexDirection: "row",
@@ -56,7 +58,7 @@ const IndexPage = () => (
             Toolbrary is a peer to peer market place centered around the idea of
             renting and lending tools from your neighbours.
           </p>
-          <div class="link-container">
+          <div className="link-container">
             <p>
               <a href="https://github.com/squishickle/the-toolbrary">
                 Source Code
@@ -71,7 +73,7 @@ const IndexPage = () => (
         </div>
         <div
           style={{
-            flexBasis: "30rem",
+            flexBasis: "50rem",
             flexGrow: 2,
             paddingLeft: "30px"
           }}
@@ -81,7 +83,7 @@ const IndexPage = () => (
       </div>
 
       <div
-        class="flex-container"
+        className="flex-container"
         style={{
           display: "flex",
           flexDirection: "row",
@@ -90,12 +92,12 @@ const IndexPage = () => (
       >
         <div
           style={{
-            flexBasis: "30rem",
+            flexBasis: "50rem",
             flexGrow: 2,
             paddingRight: "20px"
           }}
         >
-          <img src={toolbraryImage} alt="Longest Word Game Screenshot" />
+          <img src={wordgameImage} alt="Longest Word Game Screenshot" />
         </div>
         <div style={{ flexBasis: "40rem", flexGrow: 1 }}>
           <h3>Longest Word Game </h3>
@@ -114,7 +116,7 @@ const IndexPage = () => (
       </div>
 
       <div
-        class="flex-container"
+        className="flex-container"
         style={{
           display: "flex",
           flexDirection: "row",
@@ -128,7 +130,7 @@ const IndexPage = () => (
             Blind Drunk is a cocktail creating Web App in which you can create a
             cocktail and add ingredients doses.
           </p>
-          <div class="link-container">
+          <div className="link-container">
             <p>
               <a href="https://github.com/karmar4/BlindDrunk">Source Code</a>
             </p>
@@ -139,7 +141,7 @@ const IndexPage = () => (
         </div>
         <div
           style={{
-            flexBasis: "30rem",
+            flexBasis: "50rem",
             flexGrow: 2,
             paddingLeft: "30px"
           }}
@@ -149,7 +151,7 @@ const IndexPage = () => (
       </div>
 
       <div
-        class="flex-container"
+        className="flex-container"
         style={{
           display: "flex",
           flexDirection: "row",
@@ -158,12 +160,12 @@ const IndexPage = () => (
       >
         <div
           style={{
-            flexBasis: "30rem",
+            flexBasis: "50rem",
             flexGrow: 2,
             paddingRight: "20px"
           }}
         >
-          <img src={toolbraryImage} alt="My first website Screenshot" />
+          <img src={dorkImage} alt="My first website Screenshot" />
         </div>
         <div style={{ flexBasis: "40rem", flexGrow: 1 }}>
           <h3>Ben is a Dork</h3>
@@ -173,20 +175,6 @@ const IndexPage = () => (
             <a href="https://github.com/karmar4/myfirstwebsite">Source Code</a>
           </p>
         </div>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="footer-links">
-        <a href="https://github.com/karmar4">
-          <FontAwesomeIcon icon={faGithub} />
-        </a>
-        <a href="https://www.linkedin.com/in/karmar-barrett-444kkk/">
-          <FontAwesomeIcon icon={faLinkedin} />
-        </a>
-      </div>
-
-      <div class="footer-copyright">
-        Made with <FontAwesomeIcon icon={faHeart} /> by Karmar
       </div>
     </div>
   </Layout>

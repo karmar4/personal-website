@@ -4,19 +4,19 @@ module.exports = {
     socials: [
       {
         name: "github",
-        link: "https://github.com/benhili"
+        link: "https://github.com/karmar4"
       },
       {
         name: "linkedin",
-        link: "https://www.linkedin.com/in/benjamin-hili-ab2430120"
+        link: "https://www.linkedin.com/in/karmar-barrett-444kkk/"
       },
       {
         name: "email",
-        link: "mailto:ben.hili1994@gmail.com?Subject=Lets%20Chat"
+        link: "mailto:karmar.barrett97@gmail.com?Subject=Lets%20Chat"
       }
     ],
     description: `Portfolio Website`,
-    author: `@benhili`
+    author: `@karmarbarrett`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

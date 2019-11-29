@@ -1,9 +1,9 @@
 {
-  "name": "benhili-webpage",
+  "name": "karmarbarrett-webpage",
   "private": true,
   "description": "My personal page and portfolio.",
   "version": "0.1.0",
-  "author": "Ben Hili <ben.hili1994@gmail.com>",
+  "author": "Karmar Barrett <karmar.barrett97@@gmail.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",

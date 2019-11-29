@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Project = ({ children }) => (
   <div
-    class="flex-container"
+    className="flex-container"
     style={{
       display: "flex",
       flexDirection: "row"

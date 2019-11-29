@@ -1,52 +1,28 @@
-import PropTypes from "prop-types";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faHeart, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const Footer = ({ socials }) => (
-  <footer
-    style={{
-      marginBottom: `1.45rem`,
-      borderBottom: `1.45rem`,
-      borderBottomColor: `black`
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`
-      }}
-    >
-      <h2>Interested in learning more?</h2>
-      <div>
-        {socials.map(social => (
-          <li
-            key={social.name}
-            style={{
-              listStyleType: `none`,
-              paddingLeft: `0.2rem`,
-              paddingRight: `1rem`,
-              display: "inline"
-            }}
-          >
-            <a
-              style={{ textDecoration: "none", color: `black` }}
-              href={social.link}
-            >
-              {social.name}
-            </a>
-          </li>
-        ))}
+const Footer = () => (
+  <footer>
+    <div className="footer">
+      <div className="footer-links">
+        <a href="https://github.com/karmar4">
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+        <a href="https://www.linkedin.com/in/karmar-barrett-444kkk/">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href="mailto:karmar.barrett97@gmail.com?Subject=Lets%20Chat">
+          <FontAwesomeIcon icon={faEnvelope} />
+        </a>
+      </div>
+
+      <div className="footer-copyright">
+        Made with <FontAwesomeIcon icon={faHeart} /> by Karmar
       </div>
     </div>
   </footer>
 );
-
-Footer.propTypes = {
-  socials: PropTypes.array
-};
-
-Footer.defaultProps = {
-  socials: []
-};
 
 export default Footer;
