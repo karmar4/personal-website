@@ -3,6 +3,7 @@ import TextLoop from "react-text-loop";
 
 import Layout from "../components/layout";
 import Projects from "../components/projects";
+import ContactForm from "../components/contact";
 import SEO from "../components/seo";
 
 const IndexPage = () => (
@@ -29,6 +30,7 @@ const IndexPage = () => (
       </code>
     </div>
     <Projects />
+    <ContactForm />
   </Layout>
 );
 
